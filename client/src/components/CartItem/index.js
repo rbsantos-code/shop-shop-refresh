@@ -16,7 +16,7 @@ const CartItem = ({ item }) => {
                     <input
                         type="number"
                         placeholder='1'
-                        value={item.purchseQuantity}
+                        value={item.purchaseQuantity}
                     />
                     <span   
                         role="img"
