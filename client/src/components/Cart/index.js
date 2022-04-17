@@ -11,7 +11,7 @@ const Cart = () => {
             <h2>Shopping Cart</h2>
             <div>
                 <CartItem item={{name: 'Camera', image: 'camera.jpg', price: 5, purchaseQuantity:3}} />
-                <CartItem item={{name: 'Soap', iamge: 'soap.jpg', price:6, purchaseQuantity:4}} />
+                <CartItem item={{name: 'Soap', image: 'soap.jpg', price:6, purchaseQuantity:4}} />
 
                 <div className="flex-row space-between">
                     <strong>Total: $0</strong>
